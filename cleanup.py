@@ -1,4 +1,4 @@
-def cleanup2(txt):
+def cleanup(txt):
     new_txt = ''
     clean_txt = txt.replace('\\n',' ')
     split_txt = clean_txt.split(' ')
